@@ -28,7 +28,9 @@
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
+    "@analogjs/vite-plugin-angular": "^1.9.4",
     "@angular-devkit/build-angular": "^18.1.1",
+    "@angular/build": "^18.1.1",
     "@angular/cli": "^18.1.1",
     "@angular/compiler-cli": "^18.1.0",
     "@chromatic-com/storybook": "^3.2.2",
@@ -37,6 +39,7 @@
     "@storybook/addon-onboarding": "^8.4.5",
     "@storybook/angular": "^8.4.5",
     "@storybook/blocks": "^8.4.5",
+    "@storybook/builder-vite": "^8.4.5",
     "@storybook/test": "^8.4.5",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",
