@@ -1,8 +1,6 @@
 import { StorybookConfig } from '@storybook/angular';
 import { StorybookConfigVite } from '@storybook/builder-vite';
-import { postcss } from 'tailwindcss';
 import { UserConfig } from 'vite';
-import tailwindcss from 'tailwindcss';
 
 const config: StorybookConfig & StorybookConfigVite = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
