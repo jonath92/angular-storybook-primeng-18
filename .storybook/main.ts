@@ -40,12 +40,7 @@ const config: StorybookConfig & StorybookConfigVite = {
           'tslib',
         ],
       },
-      plugins: [angular({ jit: true, tsconfig: './.storybook/tsconfig.json' })],
-      css: {
-        postcss: {
-          plugins: [tailwindcss()],
-        },
-      },
+      plugins: [angular({ jit: true, tsconfig: './.storybook/tsconfig.json' })]
     });
   },
 };
